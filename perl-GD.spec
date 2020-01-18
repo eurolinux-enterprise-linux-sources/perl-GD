@@ -1,6 +1,6 @@
 Name:           perl-GD
 Version:        2.49
-Release:        1.1%{?dist}
+Release:        3%{?dist}
 Summary:        Perl interface to the GD graphics library
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -72,6 +72,12 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.49-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.49-2
+- Mass rebuild 2013-12-27
+
 * Fri Aug 02 2013 Petr Šabata <contyk@redhat.com> - 2.49-1.1
 - Fix the dependency list
 - Fix a bogus date in changelog
